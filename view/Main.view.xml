@@ -1,0 +1,38 @@
+<mvc:View xmlns:core="sap.ui.core"
+	xmlns:l="sap.ui.commons.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.ui.commons"
+	controllerName="sap.training.view.Main"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	
+	<l:MatrixLayout>
+	    <l:MatrixLayoutRow>
+	        <l:MatrixLayoutCell>
+    	        <TextView text="{model_1>/firstName}"/>
+    	    </l:MatrixLayoutCell>
+    	</l:MatrixLayoutRow>
+        <l:MatrixLayoutRow>
+            <l:MatrixLayoutCell>
+                <TextField value="{model_1>/firstName}"
+                           enabled="{model_1>/enabled}"/>
+            </l:MatrixLayoutCell>
+        </l:MatrixLayoutRow>
+        <l:MatrixLayoutRow>
+            <l:MatrixLayoutCell>
+    	        <CheckBox checked="{model_1>/enabled}"/>
+    	    </l:MatrixLayoutCell>
+    	</l:MatrixLayoutRow>
+	</l:MatrixLayout>
+	
+	<RowRepeater rows="{model_2>/data}" numberOfRows="3">
+	    <title>
+	        <core:Title text="Famous error messages"/>
+	    </title> 
+		<rows>
+            <Message
+		   	    type="{model_2>level}"
+		   	    text="{model_2>description}"/>
+		</rows> 
+	</RowRepeater>
+	
+</mvc:View>

@@ -1,0 +1,17 @@
+
+{"data" : 
+    [
+        {"level": "Warning", "description": "HAL: I'm sorry, Dave. I'm afraid I can't do that."},
+        {"level": "Warning", "description": "Windows Boot Manager has encountered a problem."},
+        {"level": "Error",   "description": "Failwhale: Twitter is over capacity"},
+        {"level": "Success", "description": "Jun 25 12:20:47 pc1h kernel: lp0 on fire"},
+        {"level": "Error",   "description": "Software failure. Guru Meditation #00000004,#0000AACB."},
+        {"level": "Error",   "description": "[root@localhost root]# Kernel Panic"},
+        {"level": "Error",   "description": "That does not compute."},
+        {"level": "Warning", "description": "404 File not found. Stop messing with the URL."},
+        {"level": "Success", "description": "Blue Screen of Death."}
+    ]
+}
+
+
+

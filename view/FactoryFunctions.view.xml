@@ -1,0 +1,17 @@
+<mvc:View xmlns:core="sap.ui.core"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.ui.commons"
+	controllerName="sap.training.view.FactoryFunctions"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	
+    <Panel id="myPanel" width="350px">
+			<title>
+			    <core:Title
+			            text="Person Data"
+			            icon="sap-icon://employee"/>
+			</title>
+	</Panel>
+	
+</mvc:View>
