@@ -1,0 +1,25 @@
+<mvc:View xmlns:core="sap.ui.core"
+	xmlns:l="sap.ui.commons.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.ui.commons"
+	controllerName="sap.training.view.Main1"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+
+	<l:MatrixLayout>
+		<l:MatrixLayoutRow>
+			<l:MatrixLayoutCell>
+				<TextView text="{/firstName}"/>
+			</l:MatrixLayoutCell>
+		</l:MatrixLayoutRow>
+		<l:MatrixLayoutRow>
+			<l:MatrixLayoutCell>
+				<TextField enabled="{/enabled}" value="{/firstName}"/>
+			</l:MatrixLayoutCell>
+		</l:MatrixLayoutRow>
+		<l:MatrixLayoutRow>
+			<l:MatrixLayoutCell>
+				<CheckBox checked="{/enabled}"/>
+			</l:MatrixLayoutCell>
+		</l:MatrixLayoutRow>
+	</l:MatrixLayout>
+</mvc:View>

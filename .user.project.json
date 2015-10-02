@@ -1,6 +1,22 @@
 {
   "run": [
     {
+      "filePath": "/ZUI5_Models_and_Data_Binding/index.html",
+      "previewMode": 0,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 3301166,
+        "displayName": "New Web Application"
+      }
+    },
+    {
       "filePath": "/ZUI5_OData_Model/index.html",
       "previewMode": 0,
       "dataMode": 1,

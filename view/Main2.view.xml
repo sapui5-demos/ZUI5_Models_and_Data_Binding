@@ -2,7 +2,7 @@
 	xmlns:l="sap.ui.commons.layout"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns="sap.ui.commons"
-	controllerName="sap.training.view.Main"
+	controllerName="sap.training.view.Main2"
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	
 	<l:MatrixLayout>

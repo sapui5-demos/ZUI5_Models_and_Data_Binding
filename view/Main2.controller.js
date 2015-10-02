@@ -1,4 +1,4 @@
-sap.ui.controller("sap.training.view.Main", {
+sap.ui.controller("sap.training.view.Main2", {
 
 	/**
 	 * Called when a controller is instantiated and its View controls (if available) are already created.
@@ -36,27 +36,3 @@ sap.ui.controller("sap.training.view.Main", {
 	//	}
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
