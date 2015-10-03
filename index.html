@@ -11,17 +11,9 @@
 		</script>
 		
 		<script>
-				oModel = new sap.ui.model.json.JSONModel();
-				oModel.loadData("json/data_2.json");
-				sap.ui.getCore().setModel(oModel, "model_2");
-				
-				oModel = new sap.ui.model.json.JSONModel();
-				oModel.loadData("json/data_3.json");
-				sap.ui.getCore().setModel(oModel);
-				
 				var view = sap.ui.view({
 								id: "idMain",
-								viewName: "sap.training.view.Main1",
+								viewName: "sap.training.view.FactoryFunctions",
 								type: sap.ui.core.mvc.ViewType.XML
 							});
 				view.placeAt("content");
